@@ -1,21 +1,22 @@
 {
-  "name": "zyneframework/route",
-  "description": "Componente Route do Framework Zyne",
-  "type": "library",
-  "require": {
-    "zyneframework/core-min": "dev-master"
-  },
-  "license": "New BSD License",
-  "authors": [
-    {
-      "name": "Gilberto Albino",
-      "email": "zyneframework@zyne.com.br"
+    "name": "zyneframework/route",
+    "description": "Componente Route do Framework Zyne",
+    "type": "library",
+    "license": "New BSD License",
+    "authors": [
+        {
+            "name": "Gilberto Albino",
+            "email": "zyneframework@zyne.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.2",
+        "zyneframework/core-min": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zyne\\": "src/"
+        }
     }
-  ],
-  "minimum-stability": "dev",
-  "autoload": {
-    "psr-4": {
-      "Zyne\\": "src/"
-    }
-  }
 }
